@@ -21,13 +21,7 @@ export default function Meals(){
             <ul id="meals">
                 {loadedMeals.map(meal=>(
                     <MealItem meal={meal} key={meal.id}/>
-                    // <li key={meal.id}>
-                    //     <div>
-                    //         <h3>{meal.name}</h3>
-                    //         <div>{meal.description}</div>
-                    //         <div>{meal.price}</div>
-                    //     </div>
-                    // </li>
+                    
                 ))}
             </ul>
         </section>
